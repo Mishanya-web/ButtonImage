@@ -17,6 +17,8 @@ def button():
         counter %= 3
     return render_template('button.html')
 
+if __name__ == '__main__':
+    app.run(debug=True)
 
 
 
