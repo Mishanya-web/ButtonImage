@@ -1,0 +1,37 @@
+body{
+  text-align:center;
+  background-color:#ffcc8e;
+}
+
+.button_container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+  }
+
+.button {
+  font-family:Helvetica, sans-serif;
+  font-weight:bold;
+  padding: 20px 40px;
+  font-size: 36px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #000;
+  background-color: #FFA12B;
+  border: solid;
+  border-radius: 5px;
+  box-shadow: 0 9px #915100;
+}
+
+.button:hover {background-color: ##F78900}
+
+.button:active {
+  background-color: #F78900;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel = 'stylesheet' href = "{{ url_for('static', filename='css/image.css') }}">
+      <script>
+          setTimeout(() => {
+          document.location.reload();
+          }, 3000);
+      </script>
+  </head>
+  <body>
+    <div class="image_container">
+        {% if counter == 0 %}
+            <img class="image" src="https://c.wallhere.com/photos/79/d7/1200x800_px_Hiking_landscape_mist_Morning_mountains_nature_photography-1263873.jpg!d">
+        {% endif %}
+        {% if counter == 1 %}
+            <img class="image" src="https://vsthemes.org/uploads/posts/2018-11/1582033695_korea-nature_vsthemes_ru-4.webp">
+        {% endif %}
+        {% if counter == 2 %}
+            <img class="image" src="https://img.gazeta.ru/files3/737/16418737/Digital-Sunrise-pic_32ratio_1200x800-1200x800-17919.jpg">
+        {% endif %}
+    </div>
+  </body>
+</html>
